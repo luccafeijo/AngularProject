@@ -9,6 +9,8 @@ export class HeaderComponent implements OnInit {
 
   constructor() { }
 
+  titulo = "Teste GD9/SEBRAE - Lucca Feijó";
+
   ngOnInit(): void {
   }
 
