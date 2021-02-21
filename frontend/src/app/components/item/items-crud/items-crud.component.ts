@@ -75,7 +75,7 @@ export class ItemsCrudComponent implements OnInit {
   deleteItem(itemId: Number) {
     this.itemService.delete(itemId).subscribe(() => {
       this.getItems();
-      this.showMessage('Item deleetado com sucesso!');
+      this.showMessage('Item deletado com sucesso!');
     });
   }
 
